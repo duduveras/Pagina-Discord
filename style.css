@@ -1,0 +1,131 @@
+:root {
+    --background-color: #F0F2F5;
+    --primary-color: #404EED;
+    --white: #fff;
+    --grey: #E7E7E7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.header {
+    background-color: var(--primary-color);
+}
+
+.header header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 0;
+}
+
+.header header button {
+    background-color: white;
+    border: 0;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+}
+.header header h1 {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.header header .nav-group {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header header .nav-group a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+
+.header header button:hover {
+    color: #5865F2;
+    -webkit-box-shadow: 0px 0px 38px -10px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 0px 38px -10px rgba(0,0,0,0.63);
+    box-shadow: 0px 0px 38px -10px rgba(0,0,0,0.63);
+}
+
+.bg-color-primary {
+    background-color: var(--primary-color);
+}
+
+.primary-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 88vh;
+    justify-content: center;
+    padding: 0rem 10rem;
+    text-align: center;
+    gap: 2rem;
+    color: var(--white);
+}
+
+.primary-view h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.primary-view p {
+    font-size: 1.25rem;
+}
+
+.primary-view .white {
+    border: 0;
+    background-color: var(--white);
+    padding: 0.875rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.15rem;
+}
+
+.primary-view .black {
+    border: 0;
+    background-color: #313338;
+    padding: 0.875rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.15rem;
+    color: var(--white);
+}
+
+.button-group {
+    display: flex;
+    gap: 1.5rem;
+}
